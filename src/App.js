@@ -11,14 +11,14 @@ const API_PATH = 'http://localhost:3000/portfolio/api/contact/index.php'
 
 function App() {
 
-    window.onload = function() {
-        Particles.init({
-            selector: '.background',
-            connectParticles: true,
-            speed: 0.8
+    // window.onload = function() {
+    //     Particles.init({
+    //         selector: '.background',
+    //         connectParticles: true,
+    //         speed: 0.8
         
-        });
-    };
+    //     });
+    // };
 
   return (
     <div className="demo-big-content" >

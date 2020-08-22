@@ -175,5 +175,26 @@ background: linear-gradient(to bottom, #A43931, #1D4350); /* W3C, IE 10+/ Edge, 
 
 }
 
-
+@media only screen and (max-width: 465px) {
+  .landing .banner-text h1{
+    font-size: 30px;
+  }
+  .landing .banner-text p{
+    font-size: 15px;
+  }
+  .landing .social-links i{
+    font-size: 35px;
+  }
+  .landing img{
+    height: auto;
+    width: 50%;
+  }
+  .landing .banner-text{
+    width: 90%;
+  }
+  .landing-grid{
+    padding:0;
+    z-index: -12222
+  }
+}
 
