@@ -198,3 +198,53 @@ background: linear-gradient(to bottom, #A43931, #1D4350); /* W3C, IE 10+/ Edge, 
   }
 }
 
+@media only screen and (min-width: 466px) {
+  @media only screen and (max-width: 850px){
+  .landing .banner-text h1{
+    font-size: 45px;
+  }
+  .landing .banner-text p{
+    font-size: 25px;
+  }
+  .landing .social-links i{
+    font-size: 50px;
+  }
+  .landing img{
+    height: auto;
+    width: 45%;
+  }
+  .landing .banner-text{
+    width: 90%;
+  }
+  .landing-grid{
+    padding:0;
+    z-index: -12222
+  }
+}
+}
+
+@media only screen and (min-width: 851px) {
+  @media only screen and (max-width: 1300px){
+  .landing .banner-text h1{
+    font-size: 40px;
+  }
+  .landing .banner-text p{
+    font-size: 20px;
+  }
+  .landing .social-links i{
+    font-size: 50px;
+  }
+  .landing img{
+    height: auto;
+    width: 21%;
+  }
+  .landing .banner-text{
+    width: 90%;
+  }
+  .landing-grid{
+    padding:0;
+    z-index: -12222
+  }
+}
+}
+
